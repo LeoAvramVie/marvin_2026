@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marvin Hak | Akademischer Sport- & Fitnesstrainer</title>
+  
+  <!-- SEO Meta-Tags -->
+  <meta name="description" content="Premium Personal Training und Rehabilitation mit Marvin Hak. Über 15 Jahre Erfahrung. Wissenschaftlich fundierter Muskelaufbau, Abnehmen & Fitness im Alter. Buchen Sie jetzt ein Erstgespräch!">
+  <meta name="keywords" content="Marvin Hak, Personal Trainer, Sporttherapie, Krafttraining, Rehabilitation, Muskelaufbau, Abnehmen, Fitness im Alter, Ausdauertraining">
+  <meta name="author" content="Marvin Hak">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Marvin Hak | Akademischer Sport- & Fitnesstrainer">
+  <meta property="og:description" content="Professionelles Coaching & Rehabilitation. Wissenschaftlich fundierte Methoden für nachhaltige Fitness und Schmerzfreiheit.">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- -------------------------------------------------------------
+     BACKGROUND LAYER (SVG Aurora + Grid Overlay)
+     ------------------------------------------------------------- -->
+  <div class="bg-wrapper" id="bg-wrapper">
+    <div class="grid-overlay"></div>
+    <svg class="svg-aurora" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <radialGradient id="emerald-grad" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#10b981" stop-opacity="0.35" />
+          <stop offset="100%" stop-color="#059669" stop-opacity="0" />
+        </radialGradient>
+        <radialGradient id="mint-grad" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#34d399" stop-opacity="0.3" />
+          <stop offset="100%" stop-color="#047857" stop-opacity="0" />
+        </radialGradient>
+        <radialGradient id="amber-grad" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.2" />
+          <stop offset="100%" stop-color="#d97706" stop-opacity="0" />
+        </radialGradient>
+      </defs>
+      <circle class="blob blob-emerald" cx="250" cy="300" r="350" />
+      <circle class="blob blob-mint" cx="750" cy="400" r="300" />
+      <circle class="blob blob-amber" cx="500" cy="750" r="280" />
+    </svg>
+  </div>
+
+  <!-- -------------------------------------------------------------
+     HEADER & NAVIGATION
+     ------------------------------------------------------------- -->
+  <header>
+    <div class="nav-container">
+      <a href="#" class="logo">
+        MARVIN HAK
+        <span class="logo-dot"></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#leistungen">Leistungen</a></li>
+        <li><a href="#ueber-mich">Über mich</a></li>
+        <li><a href="#fokus-finder">Fokus-Finder</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+      <a href="#kontakt" class="nav-cta">Erstgespräch buchen</a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Menü öffnen">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- -------------------------------------------------------------
+       HERO SECTION
+       ------------------------------------------------------------- -->
+    <section class="hero container">
+      <div class="hero-grid">
+        <div class="hero-text reveal">
+          <div class="badge-wrapper">
+            <span class="badge-dot"></span>
+            Akademischer Sport- & Fitnesstrainer
+          </div>
+          <h1>Wissenschaftlicher Ansatz für deine <span class="text-gradient">Höchstleistung</span></h1>
+          <p>
+            Maßgeschneidertes Krafttraining, sichere Rehabilitation und nachhaltige Fitnesskonzepte. Basierend auf Sportwissenschaft und über 15 Jahren praktischer Erfahrung.
+          </p>
+          <div class="hero-buttons">
+            <a href="#kontakt" class="glass-button glass-button-primary">Jetzt starten</a>
+            <a href="#leistungen" class="glass-button">Mehr erfahren</a>
+          </div>
+          
+          <div class="hero-stats">
+            <div class="stat-item">
+              <h3>15<span>+</span></h3>
+              <p>Jahre Erfahrung</p>
+            </div>
+            <div class="stat-item">
+              <h3>500<span>+</span></h3>
+              <p>Erfolge</p>
+            </div>
+            <div class="stat-item">
+              <h3>100<span>%</span></h3>
+              <p>Evidenzbasiert</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" style="transition-delay: 0.2s;">
+          <div class="abstract-gym-graphics">
+            <div class="orb-ring ring-1"></div>
+            <div class="orb-ring ring-2"></div>
+            <div class="core-orb">
+              <!-- Inline Gym Dumbbell Icon -->
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6.5 6.5h11M6.5 17.5h11M3 10h18M3 14h18M6.5 6.5v11M17.5 6.5v11" />
+              </svg>
+              <span>MARVIN HAK</span>
+            </div>
+          </div>
+          
+          <div class="hero-badge-card">
+            <div class="hero-badge-icon">✓</div>
+            <div class="hero-badge-info">
+              <h4>Gesundheit im Fokus</h4>
+              <p>Spezialisiert auf Schmerzfreiheit</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------------------------
+       SERVICES SECTION (LEISTUNGEN)
+       ------------------------------------------------------------- -->
+    <section id="leistungen" class="section-padding container">
+      <div class="section-header reveal">
+        <h2>Exzellenz in jeder Disziplin</h2>
+        <p>Maßgeschneiderte Trainings- und Therapiekonzepte, die dich schmerzfrei, stark und vital durch den Alltag bringen.</p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1: Krafttraining -->
+        <div class="glass-card service-card reveal">
+          <div class="service-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 3H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3z" />
+              <path d="M12 8v8" />
+              <path d="M8 12h8" />
+            </svg>
+          </div>
+          <h3>Individuelles Krafttraining</h3>
+          <p>Maximierung deiner körperlichen Belastbarkeit durch individuell abgestimmte Pläne. Wir stärken deinen Bewegungsapparat funktionell und alltagsnah.</p>
+        </div>
+
+        <!-- Service 2: Rehabilitation -->
+        <div class="glass-card service-card reveal" style="transition-delay: 0.1s;">
+          <div class="service-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+              <path d="M12 8v8M8 12h8" />
+            </svg>
+          </div>
+          <h3>Rehabilitation nach Verletzungen</h3>
+          <p>Sicherer und strukturierter Wiederaufbau nach Operationen oder Sportverletzungen. Das Ziel ist eine schnelle, nachhaltige Schmerzfreiheit.</p>
+        </div>
+
+        <!-- Service 3: Abnehmen -->
+        <div class="glass-card service-card reveal" style="transition-delay: 0.2s;">
+          <div class="service-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2z" />
+              <path d="M12 6v6l4 2" />
+            </svg>
+          </div>
+          <h3>Abnehmen auf natürliche Art</h3>
+          <p>Gesunde Fettreduktion ohne strikte Diäten. Wir optimieren deine Ernährung und erhöhen deine stoffwechselaktive Muskelmasse langfristig.</p>
+        </div>
+
+        <!-- Service 4: Muskelwachstum -->
+        <div class="glass-card service-card wide reveal">
+          <div class="service-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="m6.5 6.5 11 11M6.5 17.5l11-11" />
+              <circle cx="12" cy="12" r="9" />
+            </svg>
+          </div>
+          <h3>Gezielter Muskelaufbau</h3>
+          <p>Hypertrophietraining nach aktuellen wissenschaftlichen Erkenntnissen. Optimale Reize und Periodisierung sorgen für sicheren, verletzungsfreien Muskelaufbau.</p>
+        </div>
+
+        <!-- Service 5: Krafttraining im Alter -->
+        <div class="glass-card service-card wide reveal" style="transition-delay: 0.1s;">
+          <div class="service-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+              <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            </svg>
+          </div>
+          <h3>Kraft im Alter für den Alltag</h3>
+          <p>Im Alter ist Krafttraining der Schlüssel für Unabhängigkeit. Wir wirken dem natürlichen Muskelabbau entgegen, stabilisieren Knochen und Gelenke und beugen Stürzen vor.</p>
+        </div>
+
+        <!-- Service 6: Ausdauertraining -->
+        <div class="glass-card service-card wide reveal" style="transition-delay: 0.2s;">
+          <div class="service-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 14.5a3.5 3.5 0 0 1 0-7H16a3.5 3.5 0 0 1 0 7H4z" />
+              <path d="M20 7.5a3.5 3.5 0 0 1 0 7" />
+            </svg>
+          </div>
+          <h3>Ausdauertraining</h3>
+          <p>Optimierung der kardiovaskulären Gesundheit und VO2max. Verbessert deine allround Regeneration, Stressresistenz und alltägliche Vitalität.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------------------------
+       BIOGRAPHY / PHILOSOPHY SECTION
+       ------------------------------------------------------------- -->
+    <section id="ueber-mich" class="section-padding container">
+      <div class="bio-grid">
+        <div class="bio-image-wrapper reveal">
+          <div class="glass-card bio-card">
+            <div class="avatar-circle">MH</div>
+            <h3>Marvin Hak</h3>
+            <p class="title">Akademischer Fitnesstrainer</p>
+            
+            <div class="bio-bullet">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>
+              <span>15+ Jahre Erfahrung im Leistungssport</span>
+            </div>
+            <div class="bio-bullet">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>
+              <span>Akademische Sportausbildung</span>
+            </div>
+            <div class="bio-bullet">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>
+              <span>Evidenzbasierte Trainingsmethoden</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bio-text reveal" style="transition-delay: 0.1s;">
+          <div class="badge-wrapper">
+            <span class="badge-dot"></span>
+            Meine Philosophie
+          </div>
+          <h2>Erfahrung trifft auf Wissenschaft</h2>
+          <p>
+            Mein Ansatz basiert auf wissenschaftlichen Erkenntnissen gepaart mit über 15 Jahren praktischer Erfahrung in der Trainingssteuerung. Als akademischer Sport- und Fitnesstrainer betrachte ich den Körper als eine Einheit.
+          </p>
+          <p>
+            Egal ob du Muskeln aufbauen, Fett verlieren oder dich nach einer Verletzung zurück ins schmerzfreie Leben kämpfen willst: Einheitspläne funktionieren nicht. Du erhältst von mir ein maßgeschneidertes, biomechanisch sicheres und auf deine Anatomie abgestimmtes Trainingskonzept.
+          </p>
+          <a href="#kontakt" class="glass-button glass-button-primary">Jetzt Erstgespräch vereinbaren</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------------------------
+       INTERACTIVE WIDGET (TRAININGS-FOKUS FINDER)
+       ------------------------------------------------------------- -->
+    <section id="fokus-finder" class="section-padding container">
+      <div class="section-header reveal">
+        <h2>Trainings-Fokus Finder</h2>
+        <p>Ermittle in zwei Klicks, wie dein optimaler Trainingsfokus unter meiner Anleitung aussehen würde.</p>
+      </div>
+
+      <div class="widget-container reveal">
+        <div class="glass-card widget-card">
+          <!-- Step 1: Goal Select -->
+          <div class="widget-step active" id="step-1">
+            <h3>Schritt 1: Was ist dein primäres Ziel?</h3>
+            <div class="widget-options">
+              <button class="option-button goal-option" data-goal="kraft">
+                <h4>Kraft & Muskeln</h4>
+                <p>Schwerpunkte: Muskelaufbau, Maximalkraft & Haltungsverbesserung</p>
+              </button>
+              <button class="option-button goal-option" data-goal="reha">
+                <h4>Rehabilitation</h4>
+                <p>Schwerpunkte: Schmerzfreiheit, Stabilität & Mobilitätsaufbau</p>
+              </button>
+              <button class="option-button goal-option" data-goal="abnehmen">
+                <h4>Natürliches Abnehmen</h4>
+                <p>Schwerpunkte: Fettreduktion, HIIT & Stoffwechselaktivierung</p>
+              </button>
+              <button class="option-button goal-option" data-goal="alter">
+                <h4>Kraft im Alltag (Alter)</h4>
+                <p>Schwerpunkte: Gelenkschutz, Sturzprophylaxe & Knochendichte</p>
+              </button>
+              <button class="option-button goal-option" data-goal="ausdauer">
+                <h4>Ausdauertraining</h4>
+                <p>Schwerpunkte: Herz-Kreislauf, VO2max & Regeneration</p>
+              </button>
+            </div>
+          </div>
+
+          <!-- Step 2: Experience Select -->
+          <div class="widget-step" id="step-2">
+            <h3>Schritt 2: Wie ist deine bisherige Erfahrung?</h3>
+            <div class="widget-options">
+              <button class="option-button exp-option" data-exp="anf">
+                <h4>Einsteiger / Wiedereinsteiger</h4>
+                <p>Ich habe wenig Erfahrung oder pausiere seit über 6 Monaten.</p>
+              </button>
+              <button class="option-button exp-option" data-exp="fort">
+                <h4>Fortgeschritten</h4>
+                <p>Ich trainiere regelmäßig und beherrsche die Grundübungen.</p>
+              </button>
+            </div>
+          </div>
+
+          <!-- Step 3: Result Page -->
+          <div class="widget-step" id="step-result">
+            <h3 id="result-title">Dein Trainingsfokus-Profil</h3>
+            <p id="result-description" style="margin-top: 12px; color: var(--text-muted);"></p>
+            
+            <div class="result-box">
+              <h4>Empfohlene Bausteine für dein Coaching:</h4>
+              <ul class="result-bullets" id="result-details">
+                <!-- Dynamically filled by JS -->
+              </ul>
+            </div>
+            <p style="margin-top: 24px; font-size: 0.9rem; color: var(--text-muted);">
+              Das passende Thema wurde automatisch im Kontaktformular unten ausgewählt. Sende es ab, um das Ergebnis zu besprechen!
+            </p>
+          </div>
+
+          <!-- Wizard Footer Controls -->
+          <div class="widget-footer">
+            <button class="glass-button" id="btn-prev" style="display: none;">Zurück</button>
+            <button class="glass-button glass-button-primary" id="btn-next" disabled>Weiter</button>
+            <button class="glass-button glass-button-primary" id="btn-restart" style="display: none;">Neu starten</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------------------------
+       CONTACT SECTION
+       ------------------------------------------------------------- -->
+    <section id="kontakt" class="section-padding container">
+      <div class="section-header reveal">
+        <h2>Unverbindliches Erstgespräch</h2>
+        <p>Lass uns in 15 Minuten besprechen, wie wir deine sportlichen Ziele Realität werden lassen.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="glass-card reveal">
+          <!-- Contact Form -->
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="name">Dein Name *</label>
+              <input type="text" id="name" class="form-control" placeholder="z. B. Thomas Müller" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Deine E-Mail *</label>
+              <input type="email" id="email" class="form-control" placeholder="z. B. thomas@gmail.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-subject">Gewünschter Fokus</label>
+              <select id="contact-subject" class="form-control">
+                <option value="allgemein">Allgemeine Anfrage</option>
+                <option value="krafttraining">Individuelles Krafttraining</option>
+                <option value="reha">Rehabilitation</option>
+                <option value="abnehmen">Abnehmen & Ernährung</option>
+                <option value="alter">Kraft im Alltag (Alter)</option>
+                <option value="ausdauer">Ausdauertraining</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Deine Nachricht *</label>
+              <textarea id="message" class="form-control" rows="4" placeholder="Beschreibe kurz deine Ausgangssituation..." required></textarea>
+            </div>
+
+            <button type="submit" class="glass-button glass-button-primary" style="width: 100%;">Anfrage absenden</button>
+          </form>
+
+          <!-- Form Success Screen -->
+          <div class="success-message" id="form-success">
+            <div class="success-icon">✓</div>
+            <h3>Anfrage erfolgreich gesendet!</h3>
+            <p style="margin-top: 12px; color: var(--text-muted);">
+              Vielen Dank, <span id="user-firstname"></span>! Marvin Hak wird sich innerhalb von 24 Stunden persönlich bei dir per E-Mail melden, um das Erstgespräch zu vereinbaren.
+            </p>
+          </div>
+        </div>
+
+        <!-- Info Column -->
+        <div class="form-info-card reveal" style="transition-delay: 0.1s;">
+          <div class="info-item">
+            <div class="info-icon">✉</div>
+            <div class="info-content">
+              <h4>Direkter E-Mail-Kontakt</h4>
+              <p>coaching@marvinhak.de</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">✆</div>
+            <div class="info-content">
+              <h4>Telefon & WhatsApp</h4>
+              <p>+49 176 12345678</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">📍</div>
+            <div class="info-content">
+              <h4>Trainingsort & Ablauf</h4>
+              <p>Individuelles 1:1 Training in Partner-Studios, bei dir zu Hause oder ortsunabhängig via High-End Online Coaching.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------------------------
+       FAQ SECTION
+       ------------------------------------------------------------- -->
+    <section id="faq" class="section-padding container">
+      <div class="section-header reveal">
+        <h2>Häufig gestellte Fragen</h2>
+        <p>Alles, was du über das Coaching und die sporttherapeutische Betreuung wissen musst.</p>
+      </div>
+
+      <div class="faq-container reveal">
+        <!-- FAQ 1 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Wie läuft das unverbindliche Erstgespräch ab?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Wir telefonieren für ca. 15 Minuten. Du erzählst mir von deinen Zielen, deinen aktuellen Hürden und eventuellen körperlichen Beschwerden. Ich erkläre dir kurz meine Arbeitsweise und wir schauen, ob die Chemie stimmt. Das Gespräch ist komplett kostenfrei.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Ich habe Schmerzen oder eine alte Verletzung – kann ich trainieren?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Ja, absolut! Als akademischer Trainer mit Spezialisierung auf Rehabilitation konzipiere ich Pläne, die genau deine Einschränkungen berücksichtigen. Wir arbeiten oft in Abstimmung mit Ärzten und Physiotherapeuten, um dich schmerzfrei wieder aufzubauen.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Bietest du auch reines Online Coaching an?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Ja. Viele Klienten nutzen mein Online Coaching, da es flexibel ist. Hierbei bekommst du detaillierte Videoanalysen deiner Übungsausführungen, wöchentliche Check-ins und dynamische Anpassungen über meine Trainings-App.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Warum ist Krafttraining im Alter so entscheidend?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Ab dem 30. Lebensjahr verliert der Körper kontinuierlich Muskelmasse und Knochendichte. Gezieltes Krafttraining wirkt diesem Prozess aktiv entgegen. Es stabilisiert die Gelenke, beugt Stürzen vor und sorgt dafür, dass alltägliche Aufgaben wie Heben, Aufstehen und Tragen auch im hohen Alter mühelos gelingen.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- -------------------------------------------------------------
+     FOOTER
+     ------------------------------------------------------------- -->
+  <footer>
+    <div class="footer-container">
+      <div class="logo" style="font-size: 1.25rem;">
+        MARVIN HAK
+        <span class="logo-dot"></span>
+      </div>
+      <div class="footer-text">
+        &copy; 2026 Marvin Hak. Alle Rechte vorbehalten. 
+        | <a href="#">Impressum</a> 
+        | <a href="#">Datenschutz</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>
